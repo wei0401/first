@@ -1,0 +1,26 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+``` {r}
+x <- 1
+y <- 2
+z <- c(x,y)
+```
+
+``` {r}
+1 / 0
+-1 / 0
+0 / 0
+Inf + Inf
+Inf - Inf
+Inf / Inf
+Inf / 0
+0 / Inf
+```
+
